@@ -4,7 +4,7 @@
 }
 body {
     color:#d9d9d9;
-    background-color: rgb(29, 0, 29);
+    background-color: #350021;
     font-family: Oswald, Geneva, Tahoma, sans-serif;
 }
 
@@ -28,18 +28,20 @@ body {
     display: flex;
     justify-content:space-between;
     align-items:center;
+    box-shadow: rgb(0, 0, 0, 0.4) 0px 20px 30px -10px;
 }
 #logo {
     font-weight:900;
-    font-size:40px;
+    font-size:35px;
     margin-left: 40px;
     margin-bottom:4px;
     text-wrap:nowrap;
     overflow:hidden;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0, 0.6);
 }
 #nav-items {
     list-style-type: none;
-    width:600px;
+    width:540px;
     margin-right:40px;
     display:flex;
     justify-content:space-between;
@@ -52,14 +54,13 @@ body {
     text-decoration:none;
 }
 #navbar li {
-    margin-bottom:1px;
     font-size:16px;
     padding:0px 10px;
-    margin-bottom:1px;
     transition: transform .1s;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0, 0.4);
 }
 #navbar li:hover {
     transform: scale(1.2);
     transition: transform .1s;
-    margin-bottom:2px;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0, 0.8);
 }
