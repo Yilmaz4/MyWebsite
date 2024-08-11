@@ -4,12 +4,11 @@
 }
 body {
     color:#d9d9d9;
-    background-color: #350021;
+    background-color: #290019;
     font-family: Oswald, Geneva, Tahoma, sans-serif;
 }
 
 .unselectable {
-    /*https://stackoverflow.com/questions/43203673/make-text-not-copyable-html*/
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -18,9 +17,17 @@ body {
     user-select: none;
 }
 
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
 #navbar {
     overflow: hidden;
-    background-color: #750048;
+    backdrop-filter: blur(10px);
+    background-color:rgb(0, 0, 0, 0.6);
     position: fixed;
     top: 0;
     height: 60px;
@@ -29,6 +36,9 @@ body {
     justify-content:space-between;
     align-items:center;
     box-shadow: rgb(0, 0, 0, 0.4) 0px 20px 30px -10px;
+}
+#main-header {
+    height:60px;
 }
 #logo {
     font-weight:900;
@@ -63,4 +73,16 @@ body {
     transform: scale(1.2);
     transition: transform .1s;
     text-shadow: 2px 2px 5px rgb(0, 0, 0, 0.8);
+}
+
+#div1 {
+    height:2000px;
+}
+#div1 p {
+    font-size:50px;
+    text-align:center;
+}
+
+#footer {
+    min-height: 50px;
 }
