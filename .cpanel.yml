@@ -5,3 +5,9 @@ deployment:
  - /bin/cp index.html $DEPLOYPATH
  - /bin/cp style.css $DEPLOYPATH
  - /bin/cp -R images $DEPLOYPATH
+ 
+ - /bin/cp -R about $DEPLOYPATH
+ - /bin/cp -R electronics $DEPLOYPATH
+ - /bin/cp -R photography $DEPLOYPATH
+ - /bin/cp -R piano $DEPLOYPATH
+ - /bin/cp -R programming $DEPLOYPATH
