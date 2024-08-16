@@ -22,6 +22,11 @@ body {
     user-select: none;
 }
 
+::selection, ::-moz-selection {
+    color: white;
+    background: rgb(110, 110, 110, 0.4);
+}
+
 body {
     min-height: 100vh;
     margin: 0;
